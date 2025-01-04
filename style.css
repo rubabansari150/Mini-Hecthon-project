@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-weight: 600 !important;
+}
+.navbar{
+  height: 15vh;
+}
+.nav-item a{
+  font-size: 12px;
+  color: black;
+  font-family: "Poppins", serif;
+  margin-top: 10px;
+}
+.nav-item a:hover{
+  color: deeppink;
+}
+.active{
+  color: deeppink !important;
+}
+.logo{
+  font-family: "Oswald", serif ;
+  font-size: 35px;
+}
+#logo-pink{
+  color: deeppink;
+}
+.section1{
+  width: 100%;
+  height: 72vh;
+  background: rgb(235, 235, 233);
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.heading h1{
+  font-size: 60px;
+}
+.section-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.section2{
+  margin-bottom: 100px;
+}
+.section2img img{
+  border: none;
+  border-radius: 45%;
+  margin-top: 100px;
+  box-shadow: 5px 5px 45px 30px rgb(207, 206, 206);
+}
+#pink{
+  color: rgb(20, 20, 37);
+  font-weight: 700;
+}
+#blue{
+  color: rgb(55, 175, 225);
+  font-weight: 700;
+}
+.para p{
+  font-size: 24px;
+  margin-top: 25px;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  gap: 20px;
+}
+.box1{
+  border: 2px dashed rgb(55, 175, 225);
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  padding: 45px 10px 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bolder;
+  color: rgb(55, 175, 225);
+  line-height: 10px;
+}
+.box2{
+  border: 2px dashed rgb(55, 175, 225);
+  height: 120px;
+  width: 110px;
+  text-align: center;
+  padding: 30px 10px 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bolder;
+  color: rgb(55, 175, 225);
+  line-height: 10px;
+}
+.box3{
+  border: 2px dashed rgb(55, 175, 225);
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  padding: 40px 10px 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bolder;
+  color: rgb(55, 175, 225);
+  line-height: 10px;
+}
+.box4{
+  border: 2px dashed rgb(55, 175, 225);
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  padding: 45px 10px 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bolder;
+  color: rgb(55, 175, 225);
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+#plus1{
+  font-size: 30px;
+  font-weight: bolder;
+}
+#plus2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+#plus3{
+  font-size: 30px;
+  font-weight: bolder;
+}
+#plus4{
+  font-size: 35px;
+  font-weight: bolder;
+}
+.section2Heading{
+  display: flex;
+  justify-content: start;
+  /* align-items: ; */
+  flex-direction: column;
+  margin-top: 140px;
+}
+.section2Heading h1{
+  font-size: 60px;
+  line-height:4vw;
+  font-weight: bolder;
+}
+#section2pink{
+  color: deeppink;
+}
+#section2blue{
+  color: rgb(55, 175, 225);
+}
+.section2Heading p{
+  line-height: 1.5vw;
+}
+.section2Heading .btn{
+  background-color: rgb(55, 175, 225);
+  width: 30%;
+}
+.section3{
+  width: 100%;
+  height: 95vh;
+  background: rgb(235, 235, 233);
+}
+.section3Heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.section3Heading h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+#section3blue{
+  color: rgb(20, 20, 37);
+}
+#section3pink{
+  color: deeppink;
+}
+.section3img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.section4{
+  width: 100%;
+  height: 100vh;
+  background: rgb(235, 235, 233);
+}
+.section4Heading{
+  transform: rotate(270deg);
+  display: flex;
+  align-items: center;
+  margin-top: 27rem;
+}
+.section4Heading h1{
+  font-size: 7rem;
+  font-weight: bolder;
+
+}
+.section4para{
+  width: 100%;
+  height: 94lvh;
+  border: 5px dashed black;
+  padding: 40px;
+  border-radius: 35px;
+  /* margin-top: 60px; */
+}
+#p1{
+  font-weight: bolder;
+  line-height: 1.2vw ;
+}
+h5{
+  color: rgb(55, 175, 225);
+  font-weight: bolder !important;
+}
+.normalpara{
+  font-size: 16px;
+  line-height: 1.2vw;
+  text-align: justify;
+}
+.section5Heading1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+  width: 100%;
+  height: 70vh;
+}
+.section5Heading1 h1{
+  font-size: 60px;
+  font-weight: bolder;
+
+}
+.section5Headingdark{
+  color: rgb(20, 20, 37);
+}
+.section5Headingpink{
+  color: deeppink;
+}
+.section5Headingblue{
+  color: rgb(55, 175, 225);
+}
+.section5Heading2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 65vh;
+ 
+}
+.section5Heading2 h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 3vw ;
+}
+.section6{
+  background: rgb(235, 235, 233);
+}
+.section6Heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 100%;
+  height: 40vh;
+ 
+}
+.section6Heading h1{
+  font-size: 55px;
+  font-weight: 800;
+}
+.section6Heading p{
+  line-height: 0.5vw;
+}
+.cardsection{
+  background: rgb(235, 235, 233);
+}
+.card-wrapper{
+  display: flex;
+}
+.card{
+  margin: 0.5rem;
+  border: none !important;
+  text-align: center;
+  background-color: rgb(235, 235, 233) !important;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.cardsection{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 60px; */
+  width: 100%;
+  height: 85vh;
+  
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: blue; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 40px;
+}
+.fallowsection{
+  margin-top: 60px; 
+}
+.fallowsection ul li {
+  line-height: 3vw;
+}
+.faqlist ul li{
+  border: 2px solid black;
+  list-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.faqsection{
+  margin-top: 60px;
+}
+.faqHeading{
+  font-size: 55px;
+  font-weight: 800;
+  color: deeppink;
+}
+
+/* form section */
+.formSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  
+}
+.formcontainer{
+  width: 90%;
+  height: 60vh;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow:  0px 5px 25px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formcontainer form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputBox{
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.inputBox input[type="text"], .inputBox input[type="email"]{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.inputBox textarea{
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.inputBox button{
+  width: 100%;    
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: rgb(0, 119, 255);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.inputBox button:hover{
+  background: rgb(0, 17, 255);
+  transition: all 0.3s ease;
+}
+
+::placeholder{
+  font-size: 16px;
+}
+
+.alert{
+  width: 100%;
+  background: rgb(0, 255, 106) !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+.formimage{
+  margin-top: 20px;
+}
+.formimgheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", serif ;
+}
+.formimgheading h1{
+  font-size: 45px;
+  font-weight: 800;
+}
+.formSection .container{
+  width: 100%;
+  height: 80vh;
+  background: rgb(235, 235, 233);
+
+}
+.lastsection{
+  margin-top: 120px;
+
+}
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 60px; */
+  width: 100%;
+  height: 40vh;
+  background-color:  rgb(0, 119, 255);
+  color: white;
+}
+
+
