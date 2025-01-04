@@ -51,3 +51,30 @@ const saveMessages = (name, emailid, msgContent) => {
 const getElementVal = (id) => {
   return document.getElementById(id).value;
 };
+
+
+let cartCount = 0;
+
+
+function updateCartDisplay() {
+    const cartCountElement = document.querySelector('.cart-count');
+    cartCountElement.textContent = cartCount; 
+}
+
+
+function addToCart() {
+    cartCount++; 
+    updateCartDisplay(); 
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buyBtns = document.querySelectorAll('.p-buy-btn'); 
+    
+    buyBtns.forEach(btn => {
+        btn.addEventListener('click', (event) => {
+            event.preventDefault(); 
+            addToCart();
+        });
+    });
+});
